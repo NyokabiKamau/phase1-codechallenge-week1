@@ -3,9 +3,10 @@
 
 const prompt = require("prompt-sync")();
 
-function grading () {
-    let studentMark = prompt("Please enter student mark: ")
+//a prompt is create for the user to input 
+let studentMark = prompt("Please enter student mark: ")
 
+function grading () {
     if (studentMark > 79 && studentMark <= 100) {
         return "A"
     } else if (studentMark >= 60 && studentMark <= 79) {

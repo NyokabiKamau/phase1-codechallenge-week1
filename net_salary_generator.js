@@ -79,12 +79,16 @@ function NHIFDeductions (NHIFRate) {
 }
 NHIFDeductions()
 
-//function that calculates NSSF (National Social Security Fund)
+//function that calculates NSSF (National Social Security Fund) 
+//TierI is a compulsory deduction 
+//while, TierII is oprional for those with other pension schemes
+//for those without alternative pension schemes, the deduction is a combination of TierI and TierII
 function NSSFDeductions () {
     const lowerEarningsLimit = 6000
     const upperEarningsLimit = 18000
     const rate = 0.06
 
+    //TierI has a maximum lower pensionable income limit of Ksh 6,000
     if (tierNSSF === 'yes' || tierNSSF === 'Yes') {
         function tierI () {
             if (monthlyGrossPay <= lowerEarningsLimit) {
@@ -94,6 +98,7 @@ function NSSFDeductions () {
             }
         }
         return tierI()
+    //TierII has a maximum upper pensionable income limit of Ksh 18,000
     } else if (tierNSSF === 'no' || tierNSSF === 'No') {
         function tierII () {
             let pensionableEarnings
