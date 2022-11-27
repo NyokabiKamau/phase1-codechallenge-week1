@@ -1,0 +1,22 @@
+{
+  "name": "code_challeges",
+  "version": "1.0.0",
+  "description": "week1 challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NyokabiKamau/phase1-codechallenge-week1.git"
+  },
+  "author": "NyokabiKamau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NyokabiKamau/phase1-codechallenge-week1/issues"
+  },
+  "homepage": "https://github.com/NyokabiKamau/phase1-codechallenge-week1#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
