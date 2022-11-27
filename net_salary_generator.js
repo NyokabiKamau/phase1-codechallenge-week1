@@ -7,7 +7,7 @@ const monthlyGrossPay = prompt("What is your monthly gross salary: ")
 
 const tierNSSF = prompt("Do you have alternative pension scheme in place other than NHIF (answer: yes or no): ")
 
-//function that calulates PAYE(Pay As You Earn) Tax
+//function that calulates PAYE (Pay As You Earn) Tax
 function monthlyPAYE(PAYEDeduction) {
     if (monthlyGrossPay > 0 && monthlyGrossPay <= 24000) {
         PAYEDeduction = monthlyGrossPay * 0.1
@@ -22,7 +22,7 @@ function monthlyPAYE(PAYEDeduction) {
 }
 monthlyPAYE()
 
-//function that calculates NHIF(National Hospital Insurance Fund)
+//function that calculates NHIF (National Hospital Insurance Fund)
 function NHIFDeductions (NHIFRate) {
     if (monthlyGrossPay > 0 && monthlyGrossPay < 6000) {
         NHIFRate = 150
@@ -79,7 +79,7 @@ function NHIFDeductions (NHIFRate) {
 }
 NHIFDeductions()
 
-//function that calculates NSSF(National Social Security Fund)
+//function that calculates NSSF (National Social Security Fund)
 function NSSFDeductions () {
     const lowerEarningsLimit = 6000
     const upperEarningsLimit = 18000
