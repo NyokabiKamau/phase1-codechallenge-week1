@@ -63,7 +63,8 @@ To access this project on you local computer, follw the steps below
 * You will need <code>node</code> and <code>npm<code/> installed globally on your computer
 
 Installations:
-* <code>npm install</code>
+* run <code>npm install</code>
+* run <code>npm init</code> to add the node modules and json package files
 
 To access prompt command
 * run <code>npm install prompt-sync</code> in each file
