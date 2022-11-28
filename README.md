@@ -71,7 +71,7 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 ## Author
 * This project was contributed to by: 
-- Nyokabi Kamau (https://github.com/NyokabiKamau/)
+- [Nyokabi Kamau](https://github.com/NyokabiKamau/)
 
 ## License
 * This project is licensed under ISC
