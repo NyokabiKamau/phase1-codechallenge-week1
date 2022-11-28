@@ -110,7 +110,7 @@ function NSSFDeductions () {
 }
 NSSFDeductions()
 
-//function that calulates taxable income.
+//Function that calulates taxable income. This is what PAYE calculates
 function taxablePay() {
     return monthlyGrossPay - NHIFDeductions() - NSSFDeductions()
 }
