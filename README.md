@@ -15,8 +15,6 @@ This is my first code challenge. I seperated the 3 code challenges into 3 differ
 * speed_detector.js
 * net_salary_generator.js
 
-The challenges are as follows:
-
 ## Challenge 1:
 ### student_grade_generator.js
 Student Grade Generator(Toy Problem)
@@ -25,7 +23,7 @@ Write that prompts the user to input student marks. The input should be between 
 A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
 #### Process
-* Run <code> node </code> 'student_grade_generator.js' to initiate the prompt
+* Run <code>node student_grade_generator.js</code> to initiate the prompt
 * When prompted, input student marks
 * Output will generated the student grade
 
@@ -37,7 +35,7 @@ Write a program that takes as input the speed of a car e.g 80. If the speed is l
 For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
 #### Process
-* Run <code> node </code> 'speed_detector.js' to initiate the prompt
+* Run <code>node speed_detector.js</code> to initiate the prompt
 * When prompted, input car speed in kilometers
 * Output will generated your demerit status
 
@@ -52,7 +50,7 @@ https://www.aren.co.ke/payroll/taxrates.htm
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 #### Process
-* Run <code> node </code>  'net_salary_calculator.js' to initiate the prompt
+* Run <code>node net_salary_calculator.js</code>  to initiate the prompt
 * When prompted, input gross monthly salary
 * Another prompt will appear where you give a 'yes' or 'no' answer to having an alternative pension scheme
 * Output will generated a breakdown of all the deduction and net salary
@@ -62,17 +60,17 @@ To access this project on you local computer, follw the steps below
 * Open your terminal
 * Clone this repository: (https://github.com/NyokabiKamau/phase1-codechallenge-week1)
 * Change directory to code_challenges
-* You will need <code> node </code> and <code> npm <code/> installed globally on your computer
+* You will need <code>node</code> and <code>npm<code/> installed globally on your computer
 
 Installations:
-* <code> npm install </code>
+* <code>npm install</code>
 
 To access prompt command
-* run <code> npm install prompt-sync </code> in each file
-* sync it to the file using <code> const prompt = require("prompt-sync")()</code>;
+* run <code>npm install prompt-sync</code> in each file
+* sync it to the file using <code>const prompt = require("prompt-sync")()</code>;
 
 To run Test Suite: 
-* run <code> node </code> 'filename.js'
+* run <code>node</code> 'filename.js'
 
 # Author
 This project was contributed to by: 
