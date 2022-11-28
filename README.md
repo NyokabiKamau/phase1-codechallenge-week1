@@ -70,7 +70,7 @@ To access prompt command
 * run <code>npm install prompt-sync</code> in each file
 * sync it to the file using <code>const prompt = require("prompt-sync")();</code>
 
-To run Test Suite: 
+To test code: 
 * run <code>node</code> filename.js
 
 # Author
