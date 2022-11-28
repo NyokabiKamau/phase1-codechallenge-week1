@@ -1,34 +1,20 @@
 # Phase1 Code Challenge Week1
 
-## Table of Content
+# Table of Content
 1. [Description](#description)
-2. [Installation](#installation)
-3. [Project Setup](#project-setup)
     - [Student Grade Generator Challenge](#student_grade_generatorjs)
     - [Speed Detector Challenge](#speed_detectorjs)
-    - [Net Salary Calculator](#net_salary_calculatorjs)
-4. [Authors](#author)
-5. [License](#license)
+    - [Net Salary Calculator Challenge](#net_salary_calculatorjs)
+2. [Project Setup](#project-setup)
+3. [Authors](#author)
+4. [License](#license)
 
-## Description
+# Description
 This is my first code challenge. I seperated the 3 code challenges into 3 different filenames:
 * student_grade_generator.js
 * speed_detector.js
 * net_salary_generator.js
 
-## Installations Instructions
-Clone this repository to local terminal. You will need <code> node </code> and <code> npm <code/> installed globally on your computer
-
-Installations:
-* <code> npm install </code>
-
-To access prompt command
-* run <code> npm install prompt-sync </code> in each file and sync it to the file using <code> const prompt = require("prompt-sync")()</code>;
-
-To run Test Suite: 
-* run <code> node </code> 'filename.js'
-
-## Project Setup
 The challenges are as follows:
 
 ## Challenge 1:
@@ -71,9 +57,26 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 * Another prompt will appear where you give a 'yes' or 'no' answer to having an alternative pension scheme
 * Output will generated a breakdown of all the deduction and net salary
 
-## Author
+# Project Setup
+To access this project on you local computer, follw the steps below
+* Open your terminal
+* Clone this repository: (https://github.com/NyokabiKamau/phase1-codechallenge-week1)
+* Change directory to code_challenges
+* You will need <code> node </code> and <code> npm <code/> installed globally on your computer
+
+Installations:
+* <code> npm install </code>
+
+To access prompt command
+* run <code> npm install prompt-sync </code> in each file
+* sync it to the file using <code> const prompt = require("prompt-sync")()</code>;
+
+To run Test Suite: 
+* run <code> node </code> 'filename.js'
+
+# Author
 This project was contributed to by: 
 - [Nyokabi Kamau](https://github.com/NyokabiKamau/)
 
-## License
+# License
 * This project is licensed under ISC
