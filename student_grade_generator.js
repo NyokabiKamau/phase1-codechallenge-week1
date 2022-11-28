@@ -19,4 +19,4 @@ function grading () {
         return "E"
     }
 }
-console.log(grading())
+console.log('Your grade:', grading())
