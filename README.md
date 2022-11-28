@@ -17,16 +17,16 @@ This is my first code challenge. I seperated the 3 code challenges into 3 differ
 * net_salary_generator.js
 
 ## Installations Instructions
-Clone this repository to local terminal. You will need node and npm installed globally on your computer
+Clone this repository to local terminal. You will need <code> node </code> and <code> npm <code/> installed globally on your computer
 
 Installations:
-* npm install
+* <code> npm install </code>
 
 To access prompt command
-* run npm install prompt-sync in each file and sync it to the file using const prompt = require("prompt-sync")();
+* run <code> npm install prompt-sync </code> in each file and sync it to the file using <code> const prompt = require("prompt-sync")()</code>;
 
 To run Test Suite: 
-* run node 'filename.js'
+* run <code> node </code> 'filename.js'
 
 ## Project Setup
 The challenges are as follows:
@@ -39,7 +39,7 @@ Write that prompts the user to input student marks. The input should be between 
 A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
 #### Process
-* Run node 'student_grade_generator.js' to initiate the prompt
+* Run <code> node </code> 'student_grade_generator.js' to initiate the prompt
 * When prompted, input student marks
 * Output will generated the student grade
 
@@ -51,7 +51,7 @@ Write a program that takes as input the speed of a car e.g 80. If the speed is l
 For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
 #### Process
-* Run node 'speed_detector.js' to initiate the prompt
+* Run <code> node </code> 'speed_detector.js' to initiate the prompt
 * When prompted, input car speed in kilometers
 * Output will generated your demerit status
 
@@ -66,7 +66,7 @@ https://www.aren.co.ke/payroll/taxrates.htm
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 #### Process
-* Run node 'net_salary_calculator.js' to initiate the prompt
+* Run <code> node </code>  'net_salary_calculator.js' to initiate the prompt
 * When prompted, input gross monthly salary
 * Another prompt will appear where you give a 'yes' or 'no' answer to having an alternative pension scheme
 * Output will generated a breakdown of all the deduction and net salary
