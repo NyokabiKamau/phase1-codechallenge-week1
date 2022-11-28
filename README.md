@@ -53,7 +53,7 @@ https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 * Run <code>node net_salary_calculator.js</code>  to initiate the prompt
 * When prompted, input gross monthly salary
 * Another prompt will appear where you give a 'yes' or 'no' answer to having an alternative pension scheme
-* Output will generated a breakdown of all the deduction and net salary
+* Output will generated a breakdown of all the deductions and net salary
 
 # Project Setup
 To access this project on you local computer, follw the steps below
@@ -67,14 +67,14 @@ Installations:
 
 To access prompt command
 * run <code>npm install prompt-sync</code> in each file
-* sync it to the file using <code>const prompt = require("prompt-sync")()</code>;
+* sync it to the file using <code>const prompt = require("prompt-sync")();</code>
 
 To run Test Suite: 
-* run <code>node</code> 'filename.js'
+* run <code>node</code> filename.js
 
 # Author
 This project was contributed to by: 
-- [Nyokabi Kamau](https://github.com/NyokabiKamau/)
+* [Nyokabi Kamau](https://github.com/NyokabiKamau/)
 
 # License
 * This project is licensed under ISC
