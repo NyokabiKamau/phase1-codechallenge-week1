@@ -2,11 +2,11 @@
 
 # Table of Content
 1. [Description](#description)
+2. [Project Setup](#project-setup)
+3. [Challenges](#challenges)
     - [Student Grade Generator Challenge](#student_grade_generatorjs)
     - [Speed Detector Challenge](#speed_detectorjs)
     - [Net Salary Calculator Challenge](#net_salary_calculatorjs)
-2. [Project Setup](#project-setup)
-3. [Challenges](#challenges)
 3. [Authors](#author)
 4. [License](#license)
 
